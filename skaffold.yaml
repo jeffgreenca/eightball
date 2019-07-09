@@ -1,0 +1,9 @@
+apiVersion: skaffold/v1beta12
+kind: Config
+build:
+  artifacts:
+  - image: eightball
+deploy:
+  kubectl:
+    manifests:
+    - pod.yaml
