@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+	"math/rand"
+)
+
+var messages = []string {"Not a chance", "Sounds good", "Yes", "No", "Think again"}
 
 func main() {
-	fmt.Printf("Hello\n")
+	for {
+		fmt.Printf("%s\n", messages[rand.Intn(len(messages))])
+		time.Sleep(800 * time.Millisecond)
+	}
 }

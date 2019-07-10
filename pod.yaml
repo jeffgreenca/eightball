@@ -6,4 +6,4 @@ metadata:
 spec:
   containers:
     - name: eightball-app
-      image: localhost:32001/eightball
+      image: eightball
