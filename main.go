@@ -6,7 +6,7 @@ import (
 	"math/rand"
 )
 
-var messages = []string {"Not a chance", "Sounds good", "Yes", "No", "Think again"}
+var messages = []string {"Not a chance", "Sounds good", "Yes", "No", "Think again", "Give me the antibiotics", "Things are looking up"}
 
 func main() {
 	for {
