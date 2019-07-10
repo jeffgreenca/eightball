@@ -2,7 +2,9 @@
 
 ## prereqs
 
-- skaffold, docker, kind
+- [skaffold](https://skaffold.dev/docs/getting-started/)
+- [kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
+- docker engine
 
 ## setup
 Create a KIND cluster:
